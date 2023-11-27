@@ -1,0 +1,50 @@
+[
+    {
+        "img": "/images/pic1.png",
+        "title": "How To Start Using Banko For Your Startup",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+        
+        "id": 1,
+        "categories": [ "App", "Technology"]
+    },
+    {
+        "img": "/images/pic2.png",
+        "title": "10 Things Nobody Told You About Banko",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+        
+        "id": 2,
+        "categories": ["Technology"]
+    },
+    {
+        "img": "/images/pic3.png",
+        "title": "7 Ways To Improve You Saving Habits",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+        
+        "id": 3,
+        "categories": ["App", "Product"]
+    },
+    {
+        "img": "/images/pic4.png",
+        "title": "Why We Love Banko (And You Should Too)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+        
+        "id": 4,
+       "categories": ["Product","Technology"]
+    },
+    {
+        "img": "/images/pic5.png",
+        "title": "Why We Love Banko (And You Should Too)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+        
+        "id": 5,
+        "categories": [ "App"]
+    },
+    {
+        "img": "/images/pic6.png",
+        "title": "10 Things About Banko Yiur Friends Need To Know",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+        
+        "id": 6,
+        "categories": ["Technology"]
+    }
+]
