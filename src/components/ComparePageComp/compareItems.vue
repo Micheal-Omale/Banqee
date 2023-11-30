@@ -9,7 +9,7 @@ import BaseIcon from '../BaseIcon.vue';
             <div class="flex items-center justify-center gap-[1.5rem]">
                 <BaseIcon :name="compare.icon"/>
                 <div class="flex flex-col gap-2">
-                    <h5 class="capitalize font-medium text-[1.3rem]">{{ compare.title }}</h5>
+                    <h5 class="capitalize font-medium md:text-[1.3rem]">{{ compare.title }}</h5>
                 <p class="text-slate-400 text-[1rem]">{{ compare.description }}</p>
                 </div>
             </div>

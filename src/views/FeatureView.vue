@@ -9,7 +9,7 @@ import faq from '../components/LandingPageComp/faq.vue';
 </script>
 
 <template>
-    <div>
+    <div class="overflow-hidden">
         <featureHero />
         <ui-container>
             <featureSection />

@@ -94,15 +94,15 @@ const comparesZ = [
        <ui-container>
         <div class="flex flex-col gap-[4rem]">
             <Compare class="flex flex-col gap-[2rem]">
-                <h2 class="text-[2.5rem] font-medium font-dm capitalize">Credit card</h2>
+                <h2 class="md:text-[2.5rem] text-[1.3rem] font-medium font-dm capitalize">Credit card</h2>
                 <compareItems class="border-b py-5 " v-for="compare in comparesX" :key="compare.id" :compare="compare" />
             </Compare>
             <Compare class="flex flex-col gap-[2rem]">
-                <h2 class="text-[2.5rem] font-medium font-dm capitalize">Banking Account</h2>
+                <h2 class="md:text-[2.5rem] text-[1.3rem] font-medium font-dm capitalize">Banking Account</h2>
                 <compareItems class="border-b py-5 " v-for="compare in comparesY" :key="compare.id" :compare="compare" />
                </Compare>
             <Compare class="flex flex-col gap-[2rem]">
-                <h2 class="text-[2.5rem] font-medium font-dm capitalize">Extra Features</h2>
+                <h2 class="md:text-[2.5rem] text-[1.3rem] font-medium font-dm capitalize">Extra Features</h2>
                 <compareItems class="border-b py-5 " v-for="compare in comparesZ" :key="compare.id" :compare="compare" />
                </Compare>
         </div>

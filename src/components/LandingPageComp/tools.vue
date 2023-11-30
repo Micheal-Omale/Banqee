@@ -62,18 +62,18 @@
 </script>
 
 <template>
-    <div class="md:py-[4.5rem]">
+    <div class="md:py-[4.5rem] py-[2.5rem]">
         <div class="flex flex-col gap-[6.4rem]">
             <div class="flex flex-wrap w-[70%] gap-[1rem]">
                 <div class="" v-for="icon in logos" :key="icon.id">
                     <BaseIcon :name="icon.icon" />
                 </div>
             </div>
-            <div class="flex gap-[10rem]">
-                <div class="flex flex-col gap-[1.2rem] w-1/2">
-                    <h5 class="text-[1.3rem] font-medium font-dm ">Tools</h5>
-                    <h2 class="font-medium font-dm text-[4rem] leading-[1.2]">Seamless <br /> integration</h2>
-                    <p class="font-medium text-[1.1rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+            <div class="flex flex-col md:flex-row  md:gap-[10rem]">
+                <div class="flex flex-col gap-[1rem] md:gap-[1.2rem] md:w-1/2">
+                    <h5 class="md:text-[1.3rem] font-medium font-dm ">Tools</h5>
+                    <h2 class="font-medium font-dm md:text-[4rem] text-[2rem] leading-[1.2]">Seamless <br class="hidden md:block" /> integration</h2>
+                    <p class="font-medium font-dm text-[1.1rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
                         duis enim velit mollit.</p>
                 </div>
                 <div class="flex flex-col gap-[1rem] pt-[15%]">

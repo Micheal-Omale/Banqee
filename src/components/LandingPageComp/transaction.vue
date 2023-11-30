@@ -17,10 +17,10 @@
 </script>
 
 <template>
-    <div class="bg-featurebg md:py-[4.5rem] md:px-[9rem]">
-        <div class="flex gap-[10rem]">
-          <div class=" flex flex-col gap-[1.1rem] w-1/2 mr-auto py-[3.5rem]">
-            <h4 class="text-[4rem] font-dm font-medium leading-[71px]">Send & recieve <br class="hidden md:block"/> money instantly</h4>
+    <div class="bg-featurebg md:py-[4.5rem] md:px-[9rem] py-[1.5rem] px-[1.5rem]">
+        <div class="flex flex-col md:flex-row md:gap-[10rem]">
+          <div class=" flex flex-col gap-[1.1rem] md:w-1/2 mr-auto py-[3.5rem]">
+            <h4 class="md:text-[4rem] text-[2rem] font-dm font-medium leading-[71px]">Send & recieve <br class="hidden md:block"/> money instantly</h4>
             <p class="font-dm text-[1.3rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
             <div v-for="mark in marks" :key="mark.id">
                 <span class="flex items-center gap-[1rem] text-[1.2rem] font-dm font-medium">
@@ -29,7 +29,7 @@
                 </span>
             </div>
           </div>
-          <div class="w-1/2 flex flex-col gap-[1rem]">
+          <div class="md:w-1/2 flex flex-col gap-[1rem] mx-auto">
             <div class="bg-white w-[400px] flex items-center gap-[.8rem] py-[.6rem] px-[1rem] rounded-lg" v-for="link in links" :key="link.id">
                     <BaseIcon :name="link.icon"/>
                     <div>

@@ -6,7 +6,7 @@ import compareCTA from '../components/ComparePageComp/compareCTA.vue';
 </script>
 
 <template>
-    <div>
+    <div class="overflow-hidden">
         <compareHero />
         <compareCards />
         <compareProducts />

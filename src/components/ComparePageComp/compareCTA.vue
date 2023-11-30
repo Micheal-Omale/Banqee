@@ -3,8 +3,8 @@ import BaseIcon from '../BaseIcon.vue';
 </script>
 
 <template>
-    <div class="px-[8rem]">
-        <div class="bg-primary rounded-lg flex justify-between items-center py-[2rem] px-[2rem]">
+    <div class="md:px-[8rem] px-[2rem]">
+        <div class="bg-primary rounded-lg flex flex-col md:flex-row md:justify-between md:items-center gap-[1rem] py-[2rem] px-[2rem]">
             <div>
                 <h2 class="text-white text-[2.5rem] font-medium">Still have questions?</h2>
                 <p class="text-[1.3rem] text-slate-200">We are here to help</p>

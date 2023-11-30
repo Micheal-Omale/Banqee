@@ -11,9 +11,9 @@ import BaseIcon from '../BaseIcon.vue';
 </script>
 
 <template>
-    <div class="py-[7rem] flex justify-between">
-        <div class="flex flex-col gap-[2rem] w-1/2">
-            <h2 class="font-dm text-[4rem] leading-[1] font-medium">One app. <br /> One Banking.</h2>
+    <div class="py-[7rem] flex flex-col md:flex-row justify-between gap-[5rem]">
+        <div class="flex flex-col gap-[2rem] md:w-1/2">
+            <h2 class="font-dm text-[2.3rem] md:text-[4rem] leading-[1] font-medium">One app. <br class="" /> One Banking.</h2>
             <div class="grid grid-rows-3 grid-cols-2 gap-[1rem]" >
                 <div class=" flex flex-col gap-[.5rem] py-[1.5rem] px-[1rem] border border-bordergray rounded-[16px]" v-for="feature in features" :key="feature.id">
                     <span><BaseIcon :name="feature.icon"/></span>
@@ -22,7 +22,7 @@ import BaseIcon from '../BaseIcon.vue';
                 </div>
             </div>
         </div>
-        <div class="w-[28%]">
+        <div class="md:w-[28%] w-[80%] mx-auto">
             <img src="/images/app.png">
         </div>
     </div>

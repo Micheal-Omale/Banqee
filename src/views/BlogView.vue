@@ -12,7 +12,7 @@ const router = useRouter()
 <template>
     <ui-container>
         <div>
-        <div class="flex flex-col justify-center items-center py-[5rem]">
+        <div class="flex flex-col justify-center items-center md:py-[5rem]">
             <h2 class="text-[4rem] font-medium font-dm ">Blog</h2>
         </div>
        <div class="flex flex-col gap-[2rem]">
@@ -26,12 +26,12 @@ const router = useRouter()
                 </div>
             </div>
         </div>
-        <div class="w-full grid grid-cols-3 gap-[2rem] gap-y-[3rem]">
+        <div class="w-full grid grid-cols-2 md:grid-cols-3 gap-[2rem] gap-y-[3rem]">
             <div @click="router.push(`/blog/${blog.id}`)" class="flex flex-col gap-[1.3rem] cursor-pointer" v-for="blog in blogData" :key="blog.id">
                 <img class="rounded-[1rem]" :src="blog.img" />
                 <div class="flex flex-col gap-[.8rem]">
-                    <h2 class="text-[1.5rem] font-medium capitalize">{{ blog.title }}</h2>
-                    <p class="text-[1rem] font-medium font-dm">{{ blog.description }}</p>
+                    <h2 class="md:text-[1.5rem] font-medium capitalize">{{ blog.title }}</h2>
+                    <p class="md:text-[1rem] font-medium font-dm">{{ blog.description }}</p>
                 </div>
                 <div class="flex gap-[2rem] items-center">
                     <div  v-for="categories in blog.categories" >

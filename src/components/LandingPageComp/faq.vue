@@ -58,13 +58,13 @@ const accordion = (itemId)=>{
 
 <template>
     <div class="py-[4.5rem]">
-        <div class="flex gap-[10rem]">
+        <div class="flex flex-col md:flex-row gap-[4rem] md:gap-[10rem]">
             <div class="flex flex-col gap-[1.8rem]">
-                <h2 class="text-[4rem] font-dm font-medium">Need help?</h2>
+                <h2 class="md:text-[4rem] text-[2rem] font-dm font-medium">Need help?</h2>
                 <div class="flex items-center gap-[1.3rem]" v-for="link in links" :key="link.id">
                     <BaseIcon :name="link.icon"/>
                     <div>
-                        <h5 class="text-[1.3rem] font-dm font-medium">{{ link.text }}</h5>
+                        <h5 class="md:text-[1.3rem] font-dm font-medium">{{ link.text }}</h5>
                         <p class="text-slate-400 font-dm ">{{ link.description }}</p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ const accordion = (itemId)=>{
                     <button class="btn-neutral">Support <span><BaseIcon name="right-arrow"/></span> </button>
                 </div>
             </div>
-            <div class="w-1/2">
+            <div class="md:w-1/2">
                 <accordionItems v-for="faq in faqs" :key="faq.id" :accordion="faq" @click="accordion(faq.id)" />
             </div>
         </div>

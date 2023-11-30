@@ -42,10 +42,10 @@
 <template>
     <div class="py-[10rem]">
         <div class="flex flex-col gap-[10rem]">
-            <div class="flex gap-[5rem]" v-for="link in items"  :key="link.id">
-                <div class="flex flex-col gap-[2rem] w-1/2">
-                    <h5 class="text-[1.2rem] font-medium font-dm">{{ link.header }}</h5>
-                    <h2 class="text-[4rem] font-medium font-dm leading-[1]">{{ link.title }}</h2>
+            <div class="flex flex-col md:flex-row gap-[5rem]" v-for="link in items"  :key="link.id">
+                <div class="flex flex-col gap-[2rem] md:w-1/2">
+                    <h5 class="md:text-[1.2rem] font-medium font-dm">{{ link.header }}</h5>
+                    <h2 class="md:text-[4rem] text-[2rem] font-medium font-dm leading-[1]">{{ link.title }}</h2>
                     <p class="text-[1rem] font-medium font-dm">{{ link.description }}</p>
                     <div class="flex flex-col gap-[1rem]">
                         <ul v-for="item in link.text">
@@ -55,7 +55,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="w-[28%]">
+                <div class="md:w-[28%] w-[15rem] mx-auto">
                     <img :src="link.img" />
                 </div>
 

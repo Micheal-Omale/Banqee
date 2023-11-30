@@ -33,8 +33,8 @@ const cards =[
 </script>
 
 <template>
-    <div>
-        <div class="flex gap-[2rem] w-[45%] relative left-[24%] py-[5rem]">
+    <div class="">
+        <div class="flex flex-col md:flex-row gap-[2rem] w-[45%] md:relative left-[24%] py-[5rem] mx-auto md:mx-0">
             <div v-for="card in cards" :key="card.id">
                 <div class="flex flex-col justify-center items-center">
                     <h5 class="text-[1.5rem] font-medium font-dm">{{ card.title }} <span v-if="card.highlight === 'popular'" class="text-[1.2rem] text-primary bg-[#E8F2EE] py-[0.3rem] px-3 rounded-lg font-medium capitalize">{{ card.highlight }}</span></h5>

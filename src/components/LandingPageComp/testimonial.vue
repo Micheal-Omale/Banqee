@@ -65,21 +65,21 @@
 </script>
 
 <template>
-    <div class="md:py-[4rem] flex flex-col gap-[5rem]">
-        <div class="flex gap-[10rem]">
-            <div>
-                <h5 class="text-[1.3rem] font-medium font-dm">Testimonial</h5>
-                <h2 class="text-[4rem] font-medium font-dm leading-[4.5rem]">People all over the <br /> world use banko.
+    <div class="py-[4rem] flex flex-col gap-[5rem]">
+        <div class="flex md:flex-row flex-col gap-[3rem] md:gap-[10rem]">
+            <div class="flex flex-col  md:gap-[1rem]">
+                <h5 class="md:text-[1.3rem] font-medium font-dm">Testimonial</h5>
+                <h2 class="md:text-[4rem] text-[2rem] font-medium font-dm md:leading-[4.5rem]">People all over the <br class="hidden md:block" /> world use banko.
                 </h2>
             </div>
-            <div class="pt-[8rem]">
+            <div class="md:pt-[8rem]">
                 <span class="flex items-center gap-[.5rem] text-[1rem] font-medium">
                     <BaseIcon name="rated_star" />
                     Rated <span class="text-primary">4.8/5</span>from 1000 users
                 </span>
             </div>
         </div>
-        <div class="grid grid-cols-3 gap-[2rem]">
+        <div class="grid md:grid-cols-3 gap-[2rem]">
             <div class="flex flex-col gap-[1.2rem] border border-bordergray rounded-lg py-[1.5rem] px-[2rem]" v-for="link in links" :key="link.id">
                 <div class="flex">
                     <div v-for="index in 5" :key="index">

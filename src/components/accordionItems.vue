@@ -14,7 +14,7 @@
     <div>
         <div class="border-bordergray border-b py-4">
             <button class="w-full flex items-center justify-between gap-3" @click="accordion(accordion.id)">
-                <h2 class="text-[1.5rem] font-medium font-dm">{{ accordion.question }}</h2>
+                <h2 class="md:text-[1.5rem] text-[1.2rem] font-medium font-dm">{{ accordion.question }}</h2>
                 <span :class="{ 'rotate-45 transition-all duration-300': accordion.open }" class=" flex text-end transition-all">
                     <BaseIcon :name="accordion.icon" />
                 </span>

@@ -36,13 +36,13 @@
 
 <template>
     <div class="py-[4.5rem]">
-        <div>
+        <div class="flex flex-col gap-[2rem]">
             <div class="flex justify-between">
-                <h2 class="text-[4rem] font-dm font-medium">Blog</h2>
+                <h2 class="md:text-[4rem] text-[2rem] font-dm font-medium">Blog</h2>
                 <span class="flex items-center gap-[1rem] text-primary font-medium">All Articles
                     <BaseIcon name="right-arrow" /></span>
             </div>
-            <div class="w-full grid grid-cols-3 gap-[1rem]">
+            <div class="w-full grid md:grid-cols-3 md:gap-[1rem] gap-[3rem]">
                 <div class="flex flex-col gap-[1.3rem]" v-for="link in links" :key="link.id">
                     <img class="rounded-[1rem]" :src="link.img" />
                     <div class="flex flex-col gap-[.8rem]">
